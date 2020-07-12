@@ -15,7 +15,7 @@ app.get('/listMovies', function (req, res)
    const url = 'mongodb://localhost:27017';
  
    // Database Name
-   const dbName = 'new_test';
+   const dbName = 'movies';
  
    // Use connect method to connect to the server
    MongoClient.connect(url, function(err, client) 
